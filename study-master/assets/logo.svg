@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="smGrad" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="55%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+    <linearGradient id="smAccent" x1="20" y1="20" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E0E7FF" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="url(#smGrad)" />
+  <rect x="6" y="6" width="108" height="108" rx="23" stroke="rgba(255,255,255,0.22)" stroke-width="2" />
+  <!-- Open Book -->
+  <path d="M26 42C26 38.6863 28.6863 36 32 36H54C57.3137 36 60 38.6863 60 42V84C57.5 80.5 53 79 47 79H32C28.6863 79 26 76.3137 26 73V42Z" fill="url(#smAccent)" fill-opacity="0.95" />
+  <path d="M94 42C94 38.6863 91.3137 36 88 36H66C62.6863 36 60 38.6863 60 42V84C62.5 80.5 67 79 73 79H88C91.3137 79 94 76.3137 94 73V42Z" fill="url(#smAccent)" fill-opacity="0.82" />
+  <!-- Book lines -->
+  <path d="M35 50H51M35 59H49M35 68H46" stroke="#4F46E5" stroke-width="3.2" stroke-linecap="round" />
+  <path d="M69 50H85M71 59H85M74 68H85" stroke="#4F46E5" stroke-width="3.2" stroke-linecap="round" opacity="0.85" />
+  <!-- AI Sparkle Star -->
+  <path d="M88 18L90.8 25.2L98 28L90.8 30.8L88 38L85.2 30.8L78 28L85.2 25.2L88 18Z" fill="#FDE047" />
+  <circle cx="75" cy="21" r="2.5" fill="#FDE047" opacity="0.9" />
+</svg>
